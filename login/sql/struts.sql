@@ -4,7 +4,7 @@ drop database if exists logindb_kuratani;
 create database logindb_kuratani;
 use logindb_kuratani;
 
-create table user()id int,
+create table user(id int,
 user_name varchar(255),
 password varchar(255)
 );
